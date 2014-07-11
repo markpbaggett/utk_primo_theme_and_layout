@@ -1,0 +1,155 @@
+		<script> 
+			var timer;
+			var feedbackOn = false;
+			var isInitial = true;
+			var cookieName = "feedback";
+			
+			function showFeedback() {
+				cleanTimer();
+				if (!feedbackOn) {
+					$("#shorttext").css("display", "none");
+				    $("#slide").animate({width:'250px', opacity: 0.9},'100', function() {
+				    	feedbackOn = true;
+				    	$("#text").css("display", "block");
+				    	if (isInitial) {
+				    		timer = setInterval(hideFeedback,5000);
+				    		isInitial = false;
+				    	}
+				    	
+				    	setCookie(cookieName, "false", 10);
+				    });   
+				}
+			}
+			
+			function setTimer(time) {
+				timer = setInterval(hideFeedback,time);				
+			}
+
+			function cleanTimer() {
+				clearInterval(timer);
+			}
+			
+			function hideFeedback() {
+				cleanTimer();
+				if (feedbackOn) {
+					$("#text").css("display", "none");
+				    $("#slide").animate({width:'30px', opacity: 0.8},'100', function() {
+				    	feedbackOn = false;
+				    	$("#shorttext").css("display", "block");
+				    });
+				}
+			}
+			
+			function startup() {
+				var isDisplay = getCookie(cookieName);
+				
+				if (isDisplay == "true") {
+					timer = setInterval(showFeedback,1000);
+				} else {
+					feedbackOn = true;
+					timer = setInterval(hideFeedback, 1000);
+				}
+			}
+			
+			function setCookie(cName, value, exdays) {
+				var exdate = new Date();
+				exdate.setDate(exdate.getDate() + exdays);
+				var cValue = escape(value) + ((exdays==null) ? "" : "; expires=" + exdate.toUTCString());
+				document.cookie = cName + "=" + cValue;
+			}
+			
+			function getCookie(cName) {
+				var i, x, y;
+				var ARRcookies = document.cookie.split(";");
+				for (i = 0; i < ARRcookies.length; i++) {
+					x = ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+				  	y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+				  	x = x.replace(/^\s+|\s+$/g,"");
+				  	if (x == cName) {
+				    	return unescape(y);
+				    }
+				}
+			}
+			
+			startup();
+		</script>
+		
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px; 
+				font-family: Arial,Verdana;
+			}
+			
+			#slide {
+				
+				height: 135px;
+				width: 0px;
+				border: 0px;
+				z-index: 999;
+				background: #517c96;
+				position: fixed;
+				bottom: 50px;
+				right: 0px;
+				box-shadow: 0px 0px 10px 0px black;	
+			}
+			
+			#slide:hover {
+				background-color: #517c96;
+			}
+			
+			#text {
+				display: none;
+				text-align: center;
+				padding: 10px 10px 0px 10px;
+				color: #ffffff;
+				padding: 15px;
+				text-decoration: none;
+			}
+			
+			.title {
+				font-style: italic; 
+				font-weight: bold;
+				font-size: 150%;
+			}
+			
+			.explanation {
+				text-align: center;
+				font-size: 80%;
+			}
+
+			#shorttext {
+				display: none;
+				color: #ffffff;
+				font-family: Arial,Verdana;
+				font-weight: bold;
+				-o-transform: rotate(-90deg);
+				-webkit-transform: rotate(-90deg); 
+				-moz-transform: rotate(-90deg);
+				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+				position: relative;
+				top: 80px;
+				right: 0px;
+			}
+			
+			.closebutton {
+				font-size: 60%;
+				text-align: center;
+				padding: 10px 0px 0px 0px;
+				color: white;
+			}
+			
+			.closebutton:hover {
+				text-decoration: underline;
+			}
+		</style>
+		
+		<a href="http://www.lib.utk.edu/contact/eres/" target="_new">
+			<div id="slide" onmouseover="javascript:showFeedback();" onmouseout="javascript:setTimer(100);">
+				<div id="text">
+					<span class="title">Feedback</span><br/><br/>
+					<span class="explanation">Tell us what you think about our search.</span><br/>
+				</div>
+				<div id="shorttext">feedback</div>
+			</div>
+		</a>
