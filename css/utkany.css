@@ -1,0 +1,450 @@
+body  {background-color:#ffffff; color:#32322f; margin:0px;padding:0px;font-family:Arial,verdana;font-size:100%; height:100%; min-width:990px;}
+
+/* Changes the appearance and location of the frbr class */
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields { float: none;}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
+    position: relative;
+    float: left;
+    display: inline;
+    text-align: left;
+    width: auto;
+    background-color: inherit;
+	
+    
+}
+
+.EXLResultsList cite a {
+    color: #003399;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+#exlidHeaderTile img {
+}
+
+
+#exlidMainMenuTile.EXLMainMenu {
+    margin-top: 0em;
+}
+
+/* Hide languages menu and fold main menu into unused space */
+
+.EXLLanguagesContainer  { float: right; visibility: hidden; }
+
+
+#exlidMainMenuContainer.EXLMainMenuContainer.EXLFirstItem  { float: right; }
+#exlidMainMenuItem3.EXLMainMenuItem.EXLLastItem span { border-right-style:none; }
+
+
+/*
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgRtlFRBR {
+    display: none;
+}
+*/
+
+/*
+div.EXLSummaryFields {
+    float: left;
+    width: 77%;
+}
+*/
+
+/*
+cite.FRBR a:link, a:visited {
+    color: #0000FF;
+    font-style: normal;
+    font-weight: bold;
+}
+*/
+
+
+/* Primo Home Page News Container */
+
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer3{ border:1px solid #cfcfcf; width:220px; height:92px; float:left; margin-left:1em; background-image: url(../images/bg_banner_home_news.png); background-repeat: no-repeat}
+
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer4{ border:1px solid #cfcfcf; width:220px; height:92px; float:left; margin-left:1em; background-image: url(../images/bg_banner_home_books.png); background-repeat: no-repeat}
+
+/* Stackmap Button */
+.SMbutton {
+	border: 2px outset buttonface;
+	margin-left: 0px;
+	
+}
+
+/*  classic thumbnails */
+.multipleCoverImageContainer {position:relative;margin:auto;width:38px;height:56px;font-size:0px;background-image:url(../images/icon_book.png);background-repeat:no-repeat;border: 1px solid #bdbcbd;}
+.EXLResultMediaTYPEarticle .multipleCoverImageContainer {background-image: url(../images/icon_article2.png);}
+.EXLResultMediaTYPEaudiocd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cd.png);}
+.EXLResultMediaTYPEbook .multipleCoverImageContainer {background-image: url(../images/icon_book2.png);}
+.EXLResultMediaTYPEebook .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ebook.png);}
+.EXLResultMediaTYPEvhs .multipleCoverImageContainer {background-image: url(../images/MediaIcon-vhs.png);}
+.EXLResultMediaTYPEdvd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dvd.png);}
+.EXLResultMediaTYPEmap .multipleCoverImageContainer {background-image: url(../images/MediaIcon-map.png);}
+.EXLResultMediaTYPEjournal .multipleCoverImageContainer {background-image: url(../images/MediaIcon-journal.png);}
+.EXLResultMediaTYPEmicroform .multipleCoverImageContainer {background-image: url(../images/MediaIcon-microform.png);}
+.EXLResultMediaTYPEscore .multipleCoverImageContainer {background-image: url(../images/MediaIcon-score.png);}
+.EXLResultMediaTYPEwebsite .multipleCoverImageContainer {background-image: url(../images/MediaIcon-www.png);}
+.EXLResultMediaTYPEstreamingvideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingvideo.png);}
+.EXLResultMediaTYPEother .multipleCoverImageContainer {background-image: url(../images/MediaIcon-other.png);}
+.EXLResultMediaTYPEvideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-video.png);}
+.EXLResultMediaTYPEimage .multipleCoverImageContainer {background-image: url(../images/MediaIcon-image.png);}
+.EXLResultMediaTYPEstreamingaudio .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingaudio.png);}
+.EXLResultMediaTYPEdataset .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dataset.png);}
+.EXLResultMediaTYPEonlinedocument .multipleCoverImageContainer {background-image: url(../images/MediaIcon-onlinedocument.png);}
+.EXLResultMediaTYPEethesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ethesis.png);}
+.EXLResultMediaTYPEfindingaid .multipleCoverImageContainer {background-image: url(../images/MediaIcon-findingaid.png);}
+.EXLResultMediaTYPEmanuscript .multipleCoverImageContainer {background-image: url(../images/iconmanuscript.png);}
+.EXLResultMediaTYPEuniversityarchives .multipleCoverImageContainer {background-image: url(../images/MediaIcon-universityarchives.png);}
+.EXLResultMediaTYPEplaybill .multipleCoverImageContainer {background-image: url(../images/MediaIcon-playbills.png);}
+.EXLResultMediaTYPEstudentpublication .multipleCoverImageContainer {background-image: url(../images/MediaIcon-studentpublication.png);}
+.EXLResultMediaTYPEdigitalcollection .multipleCoverImageContainer {background-image: url(../images/MediaIcon-digitalcollection.png);}
+.EXLResultMediaTYPEaudio .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cassette.png);}
+.EXLResultMediaTYPEthesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-thesis.png);}
+
+
+/* Removing FRBR "To view, click on the title of the link to the right */
+.EXLResultSeeFrbrLink {
+	display: none;
+}
+
+
+/* Sizing the Click Here Box */
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
+	max-width: 275px;
+}
+
+
+/* Sizing the Results Header */
+.EXLResultsHeader h1 {
+	font-size: 13.5px;
+}
+
+
+/* Sizing the Embedded Results Header */
+.EXLResultsHeader h1 em {
+	font-size: 13.5px;
+	color: #665555;
+}
+
+
+/* Sizing the Facets Header 'Refine My Results' */
+.EXLFacetContainer h1 {
+	font-size: 13.5px;
+	color: #665555;
+}
+
+
+/* Sizing the Facets Header 'Suggested New Searches' */
+.EXLFacetContainer h3 {
+	font-size: 13.5px;
+	color: #665555;
+}
+
+
+/* Added to change color of Facet headings */
+.EXLFacetContainer h4 {
+	color: #1A6780;
+}
+
+
+/* Added to space the Show More option
+.EXLFacetsShowMore {
+	margin-bottom: 3em;
+} */
+
+
+/* Added to Fix Show More Text Size in Facets */
+.EXLFacetContainer ol li {
+	font-size: 13px;
+}
+
+
+/* Added to fix size of "Show More" facets */
+.EXLFacet.EXLAdditionalFacet {
+	font-size: 13px;
+}
+
+
+/* Added to not display Reviews */
+div.EXLReviewsTagsTabContent div.EXLReviewsContent {
+	display:none;
+}
+
+div.EXLReviewsTagsTabContent div.EXLTagsContainer {
+	float:none; margin-left:1em;
+}
+
+/* Added to not display the Reviews/Tags
+#exlidResult0-ReviewsTab {
+	display: none;
+}
+
+#exlidResult1-ReviewsTab {
+	display: none;
+}
+
+#exlidResult2-ReviewsTab {
+	display: none;
+}
+
+#exlidResult3-ReviewsTab {
+	display: none;
+}
+
+#exlidResult4-ReviewsTab {
+	display: none;
+}
+
+#exlidResult5-ReviewsTab {
+	display: none;
+}
+
+#exlidResult6-ReviewsTab {
+	display: none;
+}
+
+#exlidResult7-ReviewsTab {
+	display: none;
+}
+
+#exlidResult8-ReviewsTab {
+	display: none;
+}
+
+#exlidResult9-ReviewsTab {
+	display: none;
+}  */
+
+
+/* Added by Mark to create space between Show More option and facet */
+.EXLFacetsShowMore {
+margin-top: 6px;
+}
+.EXLFacetsShowLess {
+margin-top: 6px;
+}
+
+
+/* Added to increase size of tab labels */
+a.EXLSearchTabTitle.EXLSearchTabLABELBooks.Plus {
+	font-size: 14px;
+}
+
+a.EXLSearchTabTitle.EXLSearchTabLABELArticles {
+	font-size: 14px;
+}
+
+/* Create Space between More Options and Show Less */
+#exlidFacet1-more {
+margin-left: 30px;
+}
+
+/* Move the "Browse" and "Simple Search" buttons up to the right of the Advanced Search */
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
+background-color: transparent;
+border: 0px solid #8FB9D0;
+clear: none;
+margin: 0;
+min-height: 0em;
+padding: 0em 0em 0em;
+width: auto; 
+float: none;
+}
+#exlidAdvancedSearchTile div.EXLAdvancedBrowseRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
+float: left;
+width: auto;
+clear: none;
+display: inline;
+float: left;
+border-top: 1px solid #ADB9C2;
+border-bottom: 1px solid #ADB9C2;
+border-right: 1px solid #ADB9C2;
+border-left: 0px solid #ADB9C2;
+margin-top: 0px;
+}
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon div.EXLSearchFieldRibbonFormFields {
+width: auto;
+background-color: #FFFFFF;
+}
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon div.EXLSearchFieldRibbonFormFields div.EXLSearchFieldRibbonFormSearchFor {
+float: left;
+width: 25em;
+}
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon div.EXLSearchFieldRibbonFormSearchFor input {
+border-top: 1px solid #8FB9D0;
+border-bottom: 1px solid #8FB9D0;
+border-left: 1px solid #8FB9D0;
+border-right: 0px solid #8FB9D0; 
+font-size: 1em;
+height: 1.5em;
+padding-left: 0;
+padding-top: 0;
+width: 20em;
+}
+#exlidAdvancedSearchTile div.EXLAdvancedBrowseRibbon div.EXLSearchFieldRibbonFormSubmitSearch input.submit {
+height: 26px;
+}
+
+/* Added by Mark to Fix Problems on the Primo Home Screen */
+#homelist{
+	margin-left:3em;
+}
+#exlidHomeContainer > div.EXLCustomLayoutContainer.EXLHomeBlockContainer1 > div.EXLCustomLayoutTile.EXLContentBlock1 > div > p:nth-child(5) > a {
+	display:inline;
+}
+
+/*Added by Mark on 4/3/14 to move Refine button to right */
+.EXLSliderRefine a {
+	margin: 5%;
+}
+
+/*Added by Mark on 4/4/14 to hide Sign In Link */
+#exlidSignIn > a {
+	display: none;
+}
+
+#exlidHeaderSystemFeedback {
+	display:none;
+}
+
+/*Added for What am I searching 5/19/14 
+div#searchAdd1 {
+	float: left;
+	padding-top: 25px;
+} */
+
+a#searchAdd {
+	margin-left: 20px;
+}
+
+
+/* Home Page Styles Overwrite (Monica 06/26/2014) */
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 { width:72%; float:left; padding-left:0;}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {  width:25%; float:left; margin-left:2%; padding-left:1%}
+
+/* Added by Mark on 6/29/14 to fix Refine again to keep it in one row 
+.EXLFacetTile {
+	width: 30%;
+}
+.EXLResultsContainer div.EXLResultsTile {
+	width: 66%;
+}
+*/
+/* Added by Mark on 6/29/14 to fix the Overwrite Issues with Advanced / Browse Search */
+/*div#exlidSearchRibbon {
+	display: inline;
+	width: 40%;
+}
+#exlidSearchRibbon fieldset {
+	width: 70%;
+}
+div.EXLSearchFieldRibbonAdvancedSearchLink {
+	display: inline;
+	width: 28%;
+	padding-top: 1.5em;
+}*/
+.EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks {
+	display: inline;
+}
+div#ponies {
+	display: inline;
+}
+
+/* Added by Make on 6/29/14 to make JS load cleaner  
+body {
+	display: none;
+} */
+
+
+/* Added by Mark as par of Edinburg Napier Changes DO NOT DELETE */
+
+#exlidHeaderTile {
+	width: 98%;
+}
+img#librarylogo {
+	float: right;
+}
+#exlidMainMenuRibbon {
+	float: left;
+}
+ul#exlidMainMenuRibbon {
+	list-style-type: none;
+}
+
+
+/* Added by Mark to Fix the Side by Side Advanced / Browse */
+div.EXLSearchFieldRibbonAdvancedSearchLink {
+	margin-top: 2em;
+}
+
+#contentEXL {
+	display:none;
+}
+
+/* Removing Background Images from Menu on Right */
+#exlidUserAreaRibbon li{
+	background-image:none;
+}
+#exlidUserAreaRibbon li span.EXLUserAreaStart {
+	background-image:none;
+}
+
+/* Bumping over New Search Menu */
+ul#exlidMainMenuRibbon {
+	padding-left: .5em;
+}
+
+/* Dropping Border for Last Item */
+#pony2 {	
+	border-right: none;
+}
+
+/* Adding Bar Beneathe Header */
+#exlidHeaderTile {
+	border-bottom: solid 1px #ADB9C2;
+	padding-bottom: 0em;
+	width:100%;
+}
+img#librarylogo {
+	padding-right: 2em;
+}
+
+/* Making Menus Line Up */
+ul#exlidUserAreaRibbon {
+	padding-top: 0.2em;
+}
+#exlidMainMenuRibbon li {
+	margin: 0em 0.2em 0em 0.2em;
+}
+
+/* Coloring the Facet Containers */
+.EXLFacetContainer {
+	background-color: #F8F8F8;
+}
+.EXLFacetContainer h3 {
+	background-color: #F8F8F8;
+}
+
+/* Line Up Facet Values on Right */
+span.EXLFacetCount {
+	float: right;
+}
+@media screen and (max-width: 1500px){
+	/* Fix Search Bar */
+	#exlidSearchRibbon {
+	margin-top:0em;
+	}
+}
+
+/* Hide AskUsNow */
+#askusnow {
+	display:none;
+}
+
+/* Make Advanced Search Bigger */
+#advancedSearchBtn {
+	font-size:100%;
+}
