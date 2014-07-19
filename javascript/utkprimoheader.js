@@ -1,24 +1,8 @@
-/* Test adding What am I searching 
-$(document).ready(function(){
-$( "fieldset" ).append( "<div id='searchAdd1'><a id='searchAdd' href='http://www.lib.utk.edu'>What am I searching?</a></div>" );
-}); */
-
 /* Adding What am I searching and Sign in to top */
 $(document).ready(function(){
 $( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=any&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=any'>Sign in for full search results</a></span></li>" );
 $( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem EXLLastItem' id='EXLMainMenuItem4'><span><a href='http://www.lib.utk.edu/databases/searching.php'>What am I searching?</a></span></li>" );
 });
-
-/* Fixing Problem with Advanced and Browse 
-$(document).ready(function(){
-$( ".EXLSearchFieldRibbonAdvancedSearchLink").first().append( ".EXLSearchFieldRibbonBrowseSearchLink").last();
-}); */
-
-/*$(document).ready(function(){
-$( ".EXLSearchFieldRibbonAdvancedSearchLink").first().append( "<div id='ponies'>&#124;&nbsp;</div>");
-$( ".EXLSearchFieldRibbonAdvancedTwoLinks").last().appendTo( $( ".EXLSearchFieldRibbonAdvancedSearchLink") ).first();
-$( ".EXLSearchFieldRibbonBrowseSearchLink").remove();
-});/*
 
 /* Added by Mark to Move the Search Items in to position like Edinbugh */
 $(document).ready(function(){
@@ -60,7 +44,7 @@ $(document).ready(function(){
 	issignedin = $("#pony1").html();
 	if ( issignedin == "Sign in"){
 		$("#exlidSignOut").remove();
-	} 
+	}
 });
 
 /* Added by Mark to Id the Sign in for Full Search Results Span */
@@ -108,9 +92,19 @@ $(document).ready(function(){
 });
 
 /* Get rid of Ask Us Now */
-$(document).ready(function(){
+$(document).ready(function(){ 
 	$(("img[src='../images/banner.png']")).attr('id','askusnow');
 });
+
+/* Hide Sign in when Signed in */
+$(document).ready(function(){ 
+	var isGuest = $(".EXLUserNameDisplay").html();
+	isGuest = isGuest.trim();
+	if (isGuest != "Guest"){
+		$("#EXLMainMenuItem5").remove();
+		$( "#exlidMainMenuRibbon" ).append($("li#exlidSignOut"));
+		} 
+}); 
 
 /* Added by Mark to fix View Port and display content DIV */
 $(document).ready(function(){
