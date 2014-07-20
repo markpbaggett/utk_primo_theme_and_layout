@@ -295,10 +295,11 @@ height: 26px;
 	display:inline;
 }
 
-/*Added by Mark on 4/3/14 to move Refine button to right */
+/*Added by Mark on 4/3/14 to move Refine button to right -- Bumped Down to 1% from 5% on July 20, 2014*/
 .EXLSliderRefine a {
-	margin: 5%;
-}
+	margin: 1%;
+} 
+
 
 /*Added by Mark on 4/4/14 to hide Sign In Link */
 #exlidSignIn > a {

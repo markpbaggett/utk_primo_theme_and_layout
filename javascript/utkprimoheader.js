@@ -1,6 +1,6 @@
 /* Adding What am I searching and Sign in to top */
 $(document).ready(function(){
-$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=any&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=any'>Sign in for full search results</a></span></li>" );
+$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=onesearch&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=onesearch'>Sign in for full search results</a></span></li>" );
 $( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem EXLLastItem' id='EXLMainMenuItem4'><span><a href='http://www.lib.utk.edu/databases/searching.php'>What am I searching?</a></span></li>" );
 });
 
@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 /* Change One Search logo's anchor */
 $(document).ready(function(){
-$("#exlidHeaderTile > a").first().attr('href','http://utk-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?menuitem=0&fromTop=true&fromPreferences=false&fromEshelf=false&vid=any');
+$("#exlidHeaderTile > a").first().attr('href','http://utk-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?menuitem=0&fromTop=true&fromPreferences=false&fromEshelf=false&vid=onesearch');
 });
 
 
