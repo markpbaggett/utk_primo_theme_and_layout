@@ -55,7 +55,7 @@ $(document).ready(function(){
 /* Added by Mark to Move Chat to User Bar */
 $(document).ready(function(){
 $("#exlidSearchBanner").attr('display','hidden');
-$("#exlidUserAreaRibbon").prepend("<li id='exlidchat'><a href=''>Chat Now!</a></li>");
+$("#exlidUserAreaRibbon").append("<li id='exlidchat'><a href=''>Chat Now!</a></li>");
 });
 $(document).ready(function(){
     $('#exlidchat').find('a').attr({href: 'http://libraryh3lp.com/chat/hodges@chat.libraryh3lp.com?skin=10334&amp;theme=jsf-text&amp;title=AskUsNow!&amp;identity=librarian&amp;sounds=1', class: 'libraryh3lp', jid: 'hodges@chat.libraryh3lp.com', style: 'display: none;'}).removeAttr('target');
@@ -110,4 +110,10 @@ $(document).ready(function(){
 $(document).ready(function(){
 $("#contentEXL").attr("style","display: block");
 $(("meta[name='viewport']")).attr("content","width=device-width, user-scalable=yes");
+});
+
+/* Remove Sign In Containers from right menu */
+$(document).ready(function(){
+	$("#exlidUserAreaRibbon > li#exlidSignOut").remove();
+	$("#exlidUserAreaRibbon > li#exlidSignIn").remove();
 });
