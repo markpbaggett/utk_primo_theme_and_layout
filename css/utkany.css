@@ -76,32 +76,40 @@ cite.FRBR a:link, a:visited {
 /*  classic thumbnails */
 .multipleCoverImageContainer {position:relative;margin:auto;width:38px;height:56px;font-size:0px;background-image:url(../images/icon_book.png);background-repeat:no-repeat;border: 1px solid #bdbcbd;}
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {background-image: url(../images/icon_article2.png);}
-.EXLResultMediaTYPEaudiocd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cd.png);}
-.EXLResultMediaTYPEbook .multipleCoverImageContainer {background-image: url(../images/icon_book2.png);}
-.EXLResultMediaTYPEebook .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ebook.png);}
-.EXLResultMediaTYPEvhs .multipleCoverImageContainer {background-image: url(../images/MediaIcon-vhs.png);}
-.EXLResultMediaTYPEdvd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dvd.png);}
+.EXLResultMediaTYPEpbook .multipleCoverImageContainer {background-image: url(../images/icon_book2.png);}
+.EXLResultMediaTYPEbook .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ebook.png);}
+.EXLResultMediaTYPEdissertation .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ethesis.png);}
+.EXLResultMediaTYPEpdissertation .multipleCoverImageContainer {background-image: url(../images/MediaIcon-thesis.png);}
+.EXLResultMediaTYPEethesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ethesis.png);}
+.EXLResultMediaTYPEthesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-thesis.png);}
 .EXLResultMediaTYPEmap .multipleCoverImageContainer {background-image: url(../images/MediaIcon-map.png);}
 .EXLResultMediaTYPEjournal .multipleCoverImageContainer {background-image: url(../images/MediaIcon-journal.png);}
 .EXLResultMediaTYPEmicroform .multipleCoverImageContainer {background-image: url(../images/MediaIcon-microform.png);}
 .EXLResultMediaTYPEscore .multipleCoverImageContainer {background-image: url(../images/MediaIcon-score.png);}
 .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {background-image: url(../images/MediaIcon-www.png);}
+.EXLResultMediaTYPEvideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingvideo.png);}
+.EXLResultMediaTYPEdvd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dvd.png);}
+.EXLResultMediaTYPEvhs .multipleCoverImageContainer {background-image: url(../images/MediaIcon-vhs.png);}
+.EXLResultMediaTYPEovideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-video.png);}
 .EXLResultMediaTYPEstreamingvideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingvideo.png);}
-.EXLResultMediaTYPEother .multipleCoverImageContainer {background-image: url(../images/MediaIcon-other.png);}
-.EXLResultMediaTYPEvideo .multipleCoverImageContainer {background-image: url(../images/MediaIcon-video.png);}
-.EXLResultMediaTYPEimage .multipleCoverImageContainer {background-image: url(../images/MediaIcon-image.png);}
-.EXLResultMediaTYPEstreamingaudio .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingaudio.png);}
-.EXLResultMediaTYPEdataset .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dataset.png);}
+.EXLResultMediaTYPEaudio .multipleCoverImageContainer {background-image: url(../images/MediaIcon-streamingaudio.png);}
+.EXLResultMediaTYPEaudiocd .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cd.png);}
+.EXLResultMediaTYPEcassette_lp .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cassette.png);}
+.EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {background-image: url(../images/MediaIcon-dataset.png);}
+.EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {background-image: url(../images/MediaIcon-newspaperarticle.png);}
+.EXLResultMediaTYPEbook_chapter .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ebookchapter.png);}
 .EXLResultMediaTYPEonlinedocument .multipleCoverImageContainer {background-image: url(../images/MediaIcon-onlinedocument.png);}
-.EXLResultMediaTYPEethesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-ethesis.png);}
+.EXLResultMediaTYPEimage .multipleCoverImageContainer {background-image: url(../images/MediaIcon-image.png);}
 .EXLResultMediaTYPEfindingaid .multipleCoverImageContainer {background-image: url(../images/MediaIcon-findingaid.png);}
 .EXLResultMediaTYPEmanuscript .multipleCoverImageContainer {background-image: url(../images/iconmanuscript.png);}
 .EXLResultMediaTYPEuniversityarchives .multipleCoverImageContainer {background-image: url(../images/MediaIcon-universityarchives.png);}
 .EXLResultMediaTYPEplaybill .multipleCoverImageContainer {background-image: url(../images/MediaIcon-playbills.png);}
 .EXLResultMediaTYPEstudentpublication .multipleCoverImageContainer {background-image: url(../images/MediaIcon-studentpublication.png);}
 .EXLResultMediaTYPEdigitalcollection .multipleCoverImageContainer {background-image: url(../images/MediaIcon-digitalcollection.png);}
-.EXLResultMediaTYPEaudio .multipleCoverImageContainer {background-image: url(../images/MediaIcon-cassette.png);}
-.EXLResultMediaTYPEthesis .multipleCoverImageContainer {background-image: url(../images/MediaIcon-thesis.png);}
+.EXLResultMediaTYPEonlinegovdoc .multipleCoverImageContainer {background-image: url(../images/MediaIcon-onlinegovdoc.png);}
+.EXLResultMediaTYPEother .multipleCoverImageContainer {background-image: url(../images/MediaIcon-other.png);}
+
+
 
 
 /* Removing FRBR "To view, click on the title of the link to the right */
@@ -448,4 +456,9 @@ span.EXLFacetCount {
 /* Make Advanced Search Bigger */
 #advancedSearchBtn {
 	font-size:100%;
+}
+
+/* Realign Menus */
+ul#exlidMainMenuRibbon {
+	padding-left:none;
 }

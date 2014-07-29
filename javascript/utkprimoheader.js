@@ -10,10 +10,9 @@ $(document).ready(function(){
 		    $(("img[src='../images/logo.png']")).attr('src','../images/searchlogo.png');
 	        $("<div id='markstest'></div>").prependTo("#exlidHeaderContainer");
 	        $("<a href='http://www.lib.utk.edu'><img id='librarylogo' src='../images/utlibrarieslogo.png' alt='UT Libraries Logo'></a>").appendTo("#exlidHeaderTile");
-	        $("#exlidHeaderTile").prependTo("#exlidHeaderContainer");
-			$("#exlidUserAreaTile").prependTo( $( "#markstest" ) );
-												
-	        $("#exlidMainMenuRibbon").appendTo( $( "#markstest" ) );
+	    	$("#exlidUserAreaTile").prependTo( $( "#markstest" ) );
+		    $("#exlidMainMenuRibbon").appendTo( $( "#markstest" ) );
+	        $("#markstest").appendTo($("#exlidHeaderTile"));
 			$("<br/>").appendTo("#exlidMainMenuRibbon");
 	});
 });
