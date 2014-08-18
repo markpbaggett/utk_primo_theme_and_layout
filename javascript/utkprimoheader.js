@@ -1,6 +1,6 @@
 /* Adding What am I searching and Sign in to top */
 $(document).ready(function(){
-$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=onesearch&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=onesearch' title='Sign in for full search results'>Off-campus users: Sign in</a></span></li>" );
+$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='https://utk-primo.hosted.exlibrisgroup.com:443/pds?func=load-login&institute=UTK&calling_system=primo&lang=eng&url=http://utk-primo.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL=http://utk-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?menuitem=0&fromTop=true&fromPreferences=false&fromEshelf=false&vid=UTK' title='Sign in for full search results'>Off-campus users: Sign in</a></span></li>" );
 $( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem EXLLastItem' id='EXLMainMenuItem4'><span><a href='http://www.lib.utk.edu/databases/searching.php' target='blank' title='Find out how One Search works'>What am I searching?</a></span></li>" );
 });
 
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
 /* Change One Search logo's anchor */
 $(document).ready(function(){
-$("#exlidHeaderTile > a").first().attr('href','http://utk-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?menuitem=0&fromTop=true&fromPreferences=false&fromEshelf=false&vid=onesearch');
+$("#exlidHeaderTile > a").first().attr('href','http://utk-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?menuitem=0&fromTop=true&fromPreferences=false&fromEshelf=false&vid=UTK');
 });
 
 
