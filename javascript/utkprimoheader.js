@@ -1,7 +1,7 @@
 /* Adding What am I searching and Sign in to top */
 $(document).ready(function(){
-$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=onesearch&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=onesearch'>Sign in for full search results</a></span></li>" );
-$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem EXLLastItem' id='EXLMainMenuItem4'><span><a href='http://www.lib.utk.edu/databases/searching.php'>What am I searching?</a></span></li>" );
+$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem' id='EXLMainMenuItem5'><span><a href='http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/login.do?loginFn=signin&vid=onesearch&targetURL=http://utk-primo.hosted.exlibrisgroup.com:1701/primo_library/libweb/action/myAccountMenu.do?vid=onesearch' title='Sign in for full search results'>Off-campus users: Sign in</a></span></li>" );
+$( "#exlidMainMenuRibbon" ).prepend( "<li class='EXLMainMenuItem EXLLastItem' id='EXLMainMenuItem4'><span><a href='http://www.lib.utk.edu/databases/searching.php' target='blank' title='Find out how One Search works'>What am I searching?</a></span></li>" );
 });
 
 /* Added by Mark to Move the Search Items in to position like Edinbugh */
