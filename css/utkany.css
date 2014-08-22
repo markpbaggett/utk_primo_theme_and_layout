@@ -462,3 +462,8 @@ span.EXLFacetCount {
 ul#exlidMainMenuRibbon {
 	padding-left:none;
 }
+
+/* Shift Left Next Pages */
+div#resultsNavNoIdBottom {
+	padding-right: 7em;
+}
