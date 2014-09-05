@@ -744,10 +744,10 @@ body.EXLFullView div.EXLResultsList h1.EXLResultTitle {font-size:100%; margin:0p
 #exlidUserAreaRibbon li  {border-right: 1px solid #dadada; font-size: 75%; height: 18px}
 
 #exlidMainMenuTile div.EXLMainMenuContainer {display: none}
-#exlidMainMenuTile div.EXLLanguagesContainer  {margin-top:-2em; right: -7px}
+/*#exlidMainMenuTile div.EXLLanguagesContainer  {margin-top:-2em; right: -7px}*/
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy  {z-index:99; height: 25px; line-height: 26px; width: 11em}
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a {margin-left:0}
-#exlidMainMenuTile div.EXLLanguagesContainer li img {margin-left:3px}
+/*#exlidMainMenuTile div.EXLLanguagesContainer li img {margin-left:3px}*/
 #exlidUserAreaRibbon li.EXLUserName {padding: 0 0.3em 0 0}
 #exlidUserAreaRibbon li.EXLMyAccount, #exlidUserAreaRibbon li.EXLLastItem {padding: 0 0.3em 0 0.3em}
 #exlidHeaderTile img {width: 100%;}
@@ -926,7 +926,18 @@ li#EXLMainMenuItem4 {
 
 ul#exlidUserAreaRibbon {
 	max-width:100%;
-	width: 80%;
-	padding-right:10%;
-	padding-left:10%;
+	width: 90%;
+	padding-left:50%;
+}
+
+.EXLLanguagesContainer{
+	display:none;
+}
+
+#exlidSelectedLanguage{
+	display: none;
+}
+
+li#exlidMainMenuItem2 {
+	display: none;
 }
