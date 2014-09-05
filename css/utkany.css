@@ -441,12 +441,6 @@ ul#exlidUserAreaRibbon {
 span.EXLFacetCount {
 	float: right;
 }
-@media screen and (max-width: 1500px){
-	/* Fix Search Bar */
-	#exlidSearchRibbon {
-	margin-top:0em;
-	}
-}
 
 /* Hide AskUsNow */
 #askusnow {
@@ -466,4 +460,18 @@ ul#exlidMainMenuRibbon {
 /* Shift Left Next Pages */
 div#resultsNavNoIdBottom {
 	padding-right: 7em;
+}
+
+/* Mobile View Stuff */
+@media screen and (max-width: 500px){
+	/* Fix Search Bar */
+	#exlidHeaderTile{
+	width:100%;
+	}
+}
+@media screen and (max-width: 1500px){
+	/* Fix Search Bar */
+	#exlidSearchRibbon {
+	margin-top:0em;
+	}
 }

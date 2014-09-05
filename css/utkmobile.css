@@ -1,0 +1,932 @@
+body {
+	overflow-x:hidden;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select:none;
+	min-width:200px;
+}
+.EXLFacetTile {
+	display:none;
+}
+.EXLResultsContainer {
+	width:auto;
+	height:auto;
+	padding-left:0em;
+	padding-right:0em;
+	padding-top:1em;
+	margin-top:auto;
+	overflow:hidden;
+	margin-bottom:1em
+}
+.EXLResultsContainer div.EXLResultsTile {
+	width:100%;
+	float:none;
+	border:none;
+	padding:0em;
+	background-color:#FFFFFF;
+	margin:0em;
+	margin-bottom:2em
+}
+#exlidHeaderSystemFeedback {
+	display:none;
+}
+#exlidHeaderSearchLimits {
+	display:none
+}
+.EXLSearchFieldRibbonAdvancedSearchLink {
+	display:none
+}
+.EXLSearchFieldRibbonBrowseSearchLink {
+	display:none
+}
+/* 01 Atttempt to display the login box */
+/*-------------topbar-------------*/
+/*
+#exlidHeaderContainer {height:auto; width:100%; background-color:#FFFFFF}
+#exlidHeaderTile { width:18%; float:left;padding-left:0.8em; padding-top:0.8em;padding-bottom:0.3em;}
+#exlidHeaderTile img {}
+*/
+/*-------------MainNav-------------*/
+
+/*
+#exlidMainMenuTile { vertical-align:text-top; width:49em;  float:right; clear:right;  margin-top:0.8em; margin-bottom:0em}
+#exlidMainMenuTile div.EXLMainMenuContainer { float:left; width:40em}
+#exlidMainMenuTile div.EXLMainMenuContainer ul {list-style-type: none;}
+#exlidMainMenuRibbon { float:right;padding-top:0.2em;padding-right:0.2em}
+#exlidMainMenuRibbon li { font-size:80%; font-weight:normal; float:left; margin: 0.2em 0.2em 0em 0.2em; padding-left:0em; padding-right:0em;  }
+#exlidMainMenuRibbon li a{color: #4a4d51;text-decoration:none; padding-left:0em; padding-right:0.2em; }
+#exlidMainMenuRibbon li a:hover { text-decoration:underline}
+#exlidMainMenuRibbon li span{color: #555555; border-right:1px solid #e2e2e2;padding-left:0.5em; padding-right:0.5em}
+*/
+/* 01 End of attempt to display the login box */
+
+
+
+
+/*header styles*/
+#exlidHeaderContainer div.EXLSkipToContent {
+	display:none;
+}
+#exlidHeaderContainer div.EXLSkipToSystemFeedback {
+	display:none;
+}
+/* SSU 20110812 #exlidHeaderContainer div.EXLUserMenu { display:none;}  */
+/*#exlidHeaderContainer div.EXLMainMenu {
+	display:none;
+}
+#exlidHeaderContainer div.EXLMainMenu {
+	display:none;
+}*/
+#exlidSearchBanner {
+	display:none;
+}
+#exlidSearchForm div.EXLSearchTabsContainer {
+	display:none;
+}
+#exlidHeaderTile {
+	width:100%;
+	float:left;
+	padding-left:0.4em;
+	padding-top:0.5em;
+	padding-bottom:0em;
+}
+/* 02 Atttempt to display the login box */
+/* 02 End of attempt to display the login box */
+/* ----------Sub Nav Bar---------------*/
+
+/*
+#exlidUserAreaTile { float:right  }
+#exlidUserAreaTile ul {  padding-left:0em;border:none }
+#exlidUserAreaRibbon{padding: 0;margin: 0;list-style-type: none;float:left;color: #555555; height:18px; clear:right;}
+#exlidUserAreaRibbon li { font-size:80%;float:left; padding-left:0em; padding-right:1.2em; height:20px; background-image: url(../images/bg_strip_subNav.png); background-repeat:repeat-x }
+#exlidUserAreaRibbon li.EXLUserName { color:#000000; font-weight:bold; }
+#exlidUserAreaRibbon li span { padding-left:0.5em}
+#exlidUserAreaRibbon li span.EXLUserAreaStart { background-image: url(../images/bg_diagonal_subNav.png);  height:18px;width:19px;  background-color:#ffffff;float:left; padding-left:0em }
+#exlidUserAreaRibbon li span.EXLUserAreaStartRtl{ display:none}
+#exlidUserAreaRibbon li span.EXLMyShelfStarSelected { background-image: url(../images/icon_star_on.png); background-repeat:no-repeat; height:11px;width:11px;  float:left; padding-left:0.3em; margin-top:0.2em }
+#exlidUserAreaRibbon li a{float: left;color:#4a4d51;text-decoration: none; }
+#exlidUserAreaRibbon li a:hover{text-decoration: underline ;}
+#exlidUserAreaRibbon li.EXLSelectedItem {}
+#exlidUserAreaRibbon li.EXLLastItem {}
+
+*/
+/* 02 End of attempt to display the login box */
+
+
+
+/* ----------Search Box--------------- */
+#exlidSearchTile {
+	clear:left;
+	border:none;
+	background-image:none;
+	background-repeat:repeat-x;
+	height:40px;
+	font-size:80%;
+	width:auto;
+	padding-bottom:0.5em;
+}
+/* ----------Search Ribbon Styles--------------- */
+#exlidSearchRibbon {
+	float:none;
+	margin-top:0em;
+	width:auto;
+	padding-left:0em;
+}
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+	background-color:transparent;
+	height:26px;
+	border:none;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:none;
+	display:inline-block;
+}
+.EXLSearchFieldRibbonFormFields {
+	float:left;
+	height:26px;
+	width:75%;
+}
+.EXLSearchFieldRibbonFormSearchFor {
+	float:left;
+	width:100%;
+	padding-left:0.8em;
+}
+.EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
+	width:100%;
+}
+#exlidSearchRibbon fieldset {
+	float:none;
+	width:100%;
+}
+#exlidSearchRibbon legend {
+	display:none
+}
+#exlidSearchRibbon input {
+	width:100%;
+	height:30px;
+	padding-top:0.2em;
+	padding-left:0em;
+	border:1px solid #adb9c2;
+	-webkit-border-radius:4px;
+	text-align:left;
+	font-size:16px;
+	font-weight:normal;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background-color:#ffffff;
+}
+#exlidSearchRibbon input.EXLSearchFieldMaximized {
+	width:95%;
+}
+#exlidSearchRibbon input.submit {
+	background-color:#f37329;
+	background-image:url(../images/bg_strip_btn_orange.png);
+	background-repeat:repeat-x;
+	margin:0em;
+	width:auto;
+	color:#FFFFFF;
+	font-weight: normal;
+	height:35px;
+	cursor: pointer;
+	cursor: pointer;
+	padding:0 0.5em;
+	font-size:14px;
+	font-weight:bold;
+	font-family: Helvetica;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border:none;
+	text-align:center;
+}
+.EXLSearchFieldRibbonFormSubmitSearch {
+	float:none;
+	width:auto;
+	display:inline-block
+}
+#exlidSearchBanner {
+	display:none
+}
+/*search tabs*/
+
+
+#exlidSearchRibbon div.EXLSearchTabsContainer {
+	display:block;
+}/*container height when there are no predefined search tabs*/
+#exlidSearchTabs {
+	display:none
+}
+.EXLSearchFieldRibbonFormSelectedCollection {
+	display:none
+}
+.EXLSearchFieldRibbonFormSelectedCollectionLabel {
+	display:none;
+}
+.EXLSearchFieldRibbonFormCollectionsList {
+	display:none;
+}
+.EXLSearchFieldRibbonFormLimitList {
+	display:none
+}
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
+	display:none;
+}
+.EXLResultsList div.EXLSummaryContainer {
+	clear:both;
+	width:auto;
+}
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
+	float:none;
+	width:auto;
+	margin-bottom:0.5em
+}
+.EXLTabsRibbon {
+	display:none;
+}
+.EXLResultsList td.EXLMyShelfStar {
+
+}
+.EXLFooterTile {
+	display:none;
+}
+.EXLResultsHeader h1 {
+	padding:0em 0em 0em 1em;
+	float:left;
+	width:100%;
+}
+/* Suspected cause of the hidden sorting options in iPhone views
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy{
+	display:none;
+}
+*/
+
+.EXLResultsHeader div.EXLResultsNumbers {
+	float:none;
+	width:100%;
+	height:18px;
+}
+.EXLResultsHeader div.EXLResultsNavigation {
+	clear:left;
+	font-size:80%;
+	margin:0px;
+	float:none;
+	width:auto;
+	text-align:left;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	font-weight:bold;
+}
+.EXLResultsList em.EXLResultStatusAvailable {
+	color:#32322f;
+}
+.EXLResultsList em.EXLResultStatusNotAvailable {
+	color:#32322f;
+}
+.EXLResultsList em.EXLResultStatusMaybeAvailable {
+}
+.EXLResultsList em span {
+	color:#32322f;
+	font-weight:normal;
+}
+#exlidTopLevelFacetsTile {
+	display:none;
+}
+/* Full View Styles*/
+body.EXLFullView {
+	height:100%;
+}
+body.EXLFullView div.EXLResultsContainer {
+	height:100%;
+	width:auto;
+	clear:right;
+}
+body.EXLFullView div.EXLResultsContainer div.EXLResultsTile {
+	width:100%;
+	border-left:none;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	padding-left:0em;
+	background-color:#FFFFFF;
+}
+body.EXLFullView div.EXLSummaryFields {
+	padding-left:1em;
+}
+body.EXLFullView div.EXLResultsContainer {
+	width:100%;
+	height:auto;/*consider height 100%*/
+	padding-left:0;
+	padding-right:0em;
+	padding-top:0em;
+	margin-top:auto/*for ie7*/;
+	clear:right;
+}
+body.EXLFullView div.EXLLocationsTabContent {
+	overflow:visible;
+	overflow-x:hidden;
+	border:none;
+	height:100%;
+}
+/*Tabs Ribbon*/
+body.EXLFullView div.EXLTabsRibbon {
+	height:2em;
+	padding:0px;
+	padding-top:1em;
+	margin:0em 0em 0em 0em;
+	clear:left;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	margin-left:0em;
+	border-bottom:2px solid #adadad;
+}
+body.EXLFullView div.EXLTabsRibbon div {
+	margin-left:1em;
+	margin-bottom:0em;
+	width:100%;
+}
+body.EXLFullView div.EXLTabsRibbon div ul {
+	margin-left:auto;
+	margin-bottom:0em;
+}
+body.EXLFullView div.EXLTabsRibbon div li {
+	line-height: 2em;
+	font-size:110%;
+	display: inline;
+}
+body.EXLFullView div.EXLTabsRibbon div li.EXLResultTab {
+	-webkit-border-radius:4px;
+	border-bottom-style:none;
+	height:27px;
+	cursor:pointer;
+	float: left;
+	color:#9B9B9B;
+}
+.EXLTabsRibbon div li.EXLResultSelectedTab {
+	border:0px solid #e1e1e1;
+	border-bottom:none;
+	background-color:#e1e1e1;
+	height:15px;
+	background-image:none;
+	background-image:url(../images/bg_strip_btn_grey.png);
+	background-position:bottom;
+	background-color:#bebebe;
+	background-repeat:repeat-x;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right:0px;
+	color:#555555;
+	margin-left:0.5em;
+}
+.EXLTabsRibbon div li.EXLResultFirstTab {
+	padding-left:0em;
+	margin-left:0em
+}
+.EXLTabsRibbon div li.EXLFirstSelectedTab {
+	padding-left:0em;
+	padding-right:0.5em;
+}
+.EXLTabsRibbon div li.EXLFirstSelectedTab a {
+	padding-left:0.5em;
+	color:#fffffff;
+}
+body.EXLFullView div.EXLTabsRibbon div li.EXLResultSelectedTab a {
+	color:#ffffff;
+}
+/* body.EXLFullView div.EXLTabsRibbon div li.EXLRequestTab {
+	display:none;
+} */
+body.EXLFullView div.EXLTabsRibbon div li.EXLReviewsTab {
+	display:none;
+}
+body.EXLFullView div.EXLTabsRibbon div li.EXLRecommendTab {
+	display:none;
+}
+body.EXLFullView div.EXLTabsRibbon div li.EXLMoreTab {
+	display:none;
+}
+body.EXLFullView div.EXLResultTabContainer {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+body.EXLFullView div.EXLResultTabContainer div.EXLTabHeader {
+	background-image:url(../images/bg_strip_brief_tabs_header.png);
+	background-repeat:repeat-x;
+	border-bottom:0px solid #e1e1e1;
+	height:27px;
+	border-left:none;
+	border-right:none;
+}
+body.EXLFullView div.EXLTabContent {
+	height:100%;
+	border-bottom:0px;
+}
+body.EXLFullView div.EXLTabContent {
+	min-height:17em;
+	height:auto;
+	border:none; /*border-bottom:1px solid #8fb9d0;*/
+	margin-bottom:1em;
+	padding-right:2em;
+	padding-left:0em;
+}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons {
+	padding:0em;
+	width:16.5em;
+	float:left;
+	text-align:left;
+	height:18px;
+	line-height:200%;
+	display:none;
+}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons ul {
+	float:left;
+	margin-bottom:9px;
+	margin-left:1.2em;
+	padding-top:1px;
+}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li {
+	list-style:none;
+	float:left;
+	height:18px;
+	background-image:none;
+	border:none
+}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li span {
+	display:none
+}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li a {
+	padding:0.2em 0.4em 0.2em 0.4em;
+}
+body.EXLFullView div.EXLTabHeaderButtonSendTo {
+	padding-right:0em;
+	text-align:left;
+}
+body.EXLFullView div.EXLTabHeaderButtonSendTo img {
+	padding-left:0em;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList {
+	width:auto;
+	background-color:transparent;
+	border:none;
+	z-index:100;
+	clear:left;
+	display:inline-block;
+	float:none;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
+	float:left;
+	background-image:none;
+	display:inline;
+	border:none;
+	z-index:100;
+	width:auto;
+	white-space:nowrap;
+	border:none;
+	background-color: transparent;
+	clear:right;
+}
+body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo img {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo a {
+	text-decoration:none;
+	cursor:auto;
+	color:#000000;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
+	margin-right:0.5em
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
+	background-image:none;
+	display:inline;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToLabel {
+	float:left;
+	padding-right:0em
+}
+body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a {
+	color:#0075b0;
+	cursor:pointer;
+	text-decoration:underline;
+	display:inline
+}
+body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a:hover {
+	text-decoration:underline;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIcon {
+	background-image:none;
+	width:16px;
+	display:inline;
+	float:right;
+	background-position:bottom;
+	padding-top:2px;
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToMyShelf {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToPrint {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToDelicious {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToConnotea {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToRefworks {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToendnote {
+	display:none
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIconMail {
+	background-image: url(../images/icon_sendTo_mail.png);
+}
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIconSMS {
+	background-image: url(../images/icon_sendTo_sms.png);
+}
+body.EXLFullView div.EXLResultsList {
+	height:100%;
+	border-top:none;
+}
+body.EXLFullView #exlidHeaderSystemFeedback {
+	display:none
+}
+body.EXLFullView div.EXLResultsFooter {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+body.EXLFullView div.EXLBackToResults {
+	font-size:100%;
+	float:left;
+	width:100%;
+	margin-left:1em;
+	margin-bottom:0.5em;
+	font-weight:bold;
+}
+body.EXLFullView div.EXLResultsHeader div.EXLResultsNavigation {
+	clear:left;
+	font-size:100%;
+	margin:0px;
+	padding:0.5em 0em 1em 1em;
+	float:none;
+	display:block;
+	width:100%;
+	text-align:left
+}
+body.EXLFullView #exlidHeaderSystemFeedback {
+	display:none
+}
+/*details tab*/
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent {
+	float:left;
+	width:100%;
+	height:100%;
+	margin:1.5em 1em 0em 1em;
+	display:block;
+	padding-bottom:1em
+}
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent ul {
+	list-style:none;
+}
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent li {
+	margin-bottom:0.3em
+}
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent li strong {
+	margin-right:0.5em
+}
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsLinks {
+	float:left;
+	display:block;
+	width:100%;
+	border:none;
+	margin:1em 1em 1em 0em;
+	background-image:none;
+	height:auto;
+	padding:0.5em;
+	padding-bottom:2em
+}
+body.EXLFullView div.EXLDetailsTabContent iframe {
+	width:110%;
+	padding:0em;
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+/*locations tab*/
+/*Locations Tab Styles*/
+
+/*  Locations tab commented SSU 20110707 hope will use styles of Primo_default.3.0.css instead
+
+body.EXLFullView div.EXLLocationsTabContent {overflow:auto;overflow-x:hidden;}
+body.EXLFullView div.EXLLocationList{float:left; width:100%; margin:0em 1em 0em 0em; display:block; border-bottom:1px solid #dadfe5; vertical-align: text-top; padding-left:0.5em;}
+body.EXLFullView div.EXLLocationList span.EXLLocationsTitleContainer {text-align:left; float:none;}
+body.EXLFullView div.EXLLocationList span.EXLLocationsTitle { display:inline-block; float:left; clear:right; width:100%; text-align:left}
+body.EXLFullView div.EXLLocationList span.EXLLocationsTitle a{ font-weight:bold; cursor:none; color:#000000;}
+body.EXLFullView div.EXLLocationList span.EXLLocationsTitle a:hover{ text-decoration:none;}
+body.EXLFullView div.EXLLocationList span.EXLLocationsTitle img{ display:none;}
+body.EXLFullView div.EXLLocationList table.EXLLocationTable { display:none;}
+body.EXLFullView div.EXLLocationList span.EXLLocationInfo { display:block; float:left; clear:right; width:100%;}
+body.EXLFullView div.EXLLocationList em { display:block; padding:0em; margin:0em; text-indent:0em;width:100%; padding-bottom:0.5em;}
+body.EXLFullView div.EXLLocationList strong { display:block; padding:0em; margin:0em; text-indent:0em;width:100%;}
+body.EXLFullView div.EXLLocationList cite { display:block; padding:0em; margin:0em; text-indent:0em;width:100%;}
+body.EXLFullView div.EXLResultsList em.EXLResultStatusAvailable {color:#5ca301;}
+body.EXLFullView div.EXLResultsList em.EXLResultStatusNotAvailable {color:#e54f4f;}
+body.EXLFullView div.EXLResultsList em.EXLResultStatusMaybeAvailable { }
+body.EXLFullView div.EXLResultsList em span{ color:#32322f;font-weight:normal;}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderContent { padding:0.3em; width:auto; color:#adb9c2; padding-top:0.5em; padding-left:1em; float:left; }
+.EXLResultsList h2 a:visited{ color:#0075b0;text-decoration: none;}
+
+body.EXLFullView div.EXLResultsList h1.EXLResultTitle {font-size:100%; margin:0px; padding:0px;padding-top:1em;}
+
+*/
+
+
+/*Home Page Styles*/
+#exlidHomeContainer {
+	width:auto;
+	height:auto;
+	margin:0em;
+	padding-top:1.5em;
+	clear:right;
+	font-size:80%;
+	color:#777676;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
+	width:auto;
+	float:none;
+	padding-left:1em;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
+	width:auto;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+	margin-top:1em;
+	background-image:none;
+	background-position:0% 0%;
+	background-repeat:no-repeat;
+	width:auto;
+	float:left;
+	padding-top:1em;
+	padding-left:0em
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
+	display:none;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
+	float:none;
+	margin:0em;
+	width:auto;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
+	width:auto;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
+	display:none;
+}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
+	display:none;
+}
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+	display:none
+}
+#exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
+	display:none
+}
+.EXLLocationTableHeaderColumn1, .EXLLocationTableHeaderColumn2, .EXLLocationTableHeaderColumn4, .EXLLocationTableHeaderColumn5, .EXLLocationTableColumn1, .EXLLocationTableColumn2, .EXLLocationTableColumn4, .EXLLocationTableColumn5 { display: none
+	}
+.EXLLocationTableActions {width:auto
+	}
+.EXLLocationList {
+	width: 105%
+}
+.EXLLocationsTabContent div.EXLLocationList table.EXLLocationTable .EXLLocationTableMargin { padding-left:1.4em;}
+.EXLLocationsTitle span.EXLLocationsTitleContainer {width:75%;}
+.EXLLocationsTitle a.EXLLocationsIcon {width:18px}
+.EXLLocationsTitle {width: 20%;}
+.EXLLocationInfo {width:76%}
+.EXLLocationInfo strong { width: 17%;}
+.EXLLocationInfo cite {width: 50%;}
+.EXLResultsList em.EXLResultStatusAvailable {width:20%}
+
+/*e-shelf*/
+.folders_new, .draggable, .EXLMyAccountTabsRibbon div li.EXLMyAccountTab, .EXLMyAccountTableAuthor, .EXLMyAccountTableDueHour, .EXLMyAccountTableFine, .Location, .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span , .EXLMyAccountTableCounter, .EXLMyAccountMainContainer table tr td:first-child, .EXLMyAccountMainContainer div.EXLMyAccountTips, .folder_details .newManage_buts, a.eShelf_print, .author, .added, .note, .MyAccount_Loans_2, .MyAccount_Loans_4, .MyAccount_Loans_5, .MyAccount_Loans_6, .MyAccount_Loans_0, .MyAccount_Requests_0, .MyAccount_Requests_3, .MyAccount_Requests_4, .MyAccount_Requests_5, .MyAccount_Requests_6, .MyAccount_FineAndFees_0, .MyAccount_FineAndFees_2, .MyAccount_FineAndFees_4, .MyAccount_FineAndFees_5, .MyAccount_FineAndFees_6, #exlidUserAreaRibbon li.EXLMyShelf{display:none}
+.EXLMyAccountTabsRibbon div li.EXLMyAccountLastTab, .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab  {display:inline}
+.folder_details {padding-left: 0;}
+.EXLMyAccountContainer {padding-left: 0.5%; width:99%; min-height:10em; padding-top:0.3em}
+.EXLMyAccountContainer table {width:99.5%}
+.EXLMyAccountMainMenuTile {width: 100%; float: left}
+.EXLMyAccountMainMenuContainer ol { margin: 0 0.1em; padding:0.3em 0; height:auto;}
+.EXLMyAccountMainContainer {margin-left:2px; float: left; margin-top: 0.3em; width:98.7%; }
+.EXLMyAccountMainContainer table.EXLMyAccountForm th {white-space:nowrap; margin: 0 1em 0 0; text-align: right}
+.EXLMyAccountMainContainer div.EXLMyPersonalSettings {width:100%}
+.EXLMyAccountMainContainer table.EXLMyAccountForm {margin-left:0}
+.EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected { left: -3px; margin: 4px 0 0;}
+.EXLMyAccountMainMenuContainer ol li {line-height:150%}
+.EXLMyAccountLinksLinkContainer{display:inline-block;}
+.EXLMyAccountLinksContainer span.EXLMyAccountMainHeaderContentSeparator{display:none;}
+
+.folder_details .itemsListTH th.title {width:80% !important}
+.folder_details .itemsListTH th.type, .folder_details .itemsListTable td.type {width:15% !important; padding-left:2px}
+.buttonGo {border:none}
+.buttonGo  a{color:#fff; display: inline-block; height: 15px; line-height: 14px;}
+.folder_details table.folderName {width:100%}
+.folder_details .itemsList {height:auto}
+.folder_details .title {width:72% !important}
+/*#exlidUserAreaRibbon li a  {background:url("13.png"); width: 16px; height:16px; display: inline-block; text-indent:-1000em;}*/
+#exlidUserAreaRibbon li  {border-right: 1px solid #dadada; font-size: 75%; height: 18px}
+
+#exlidMainMenuTile div.EXLMainMenuContainer {display: none}
+#exlidMainMenuTile div.EXLLanguagesContainer  {margin-top:-2em; right: -7px}
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy  {z-index:99; height: 25px; line-height: 26px; width: 11em}
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a {margin-left:0}
+#exlidMainMenuTile div.EXLLanguagesContainer li img {margin-left:3px}
+#exlidUserAreaRibbon li.EXLUserName {padding: 0 0.3em 0 0}
+#exlidUserAreaRibbon li.EXLMyAccount, #exlidUserAreaRibbon li.EXLLastItem {padding: 0 0.3em 0 0.3em}
+#exlidHeaderTile img {width: 100%;}
+#exlidUserAreaRibbon li span.EXLUserAreaStart  {width:0}
+#exlidUserAreaTile ul {border-left: 1px solid #dadada; float: right}
+#exlidHeaderContainer {width: 21em}
+
+/*Personalize your results*/
+#exliWhiteContent {top: 0; left: 0; width:100%; position: inherit;}
+.EXLLightbox div.EXLLightboxFormContainer  {padding:0}
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection  {width: 100%; margin: 0; }
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {width: 100%}
+
+
+
+
+
+
+
+
+
+/*languages*/
+#exlidHeaderContainer {
+    width: 100%;
+}
+
+
+.EXLLanguagesContainer {
+    display: none !important;
+}
+
+
+
+/*mobile fixes*/
+/*top menu*/
+#exlidUserAreaTile {
+    clear: both;
+}
+
+    #exlidUserAreaTile ul {
+        float: right;
+        border-left-width: 0px;
+        margin-top: 2px;
+    }
+    
+#exlidUserAreaRibbon{height:auto;}    
+
+#exlidUserAreaRibbon li {
+    padding: 10px !important;
+    background-image: none;
+}
+
+    #exlidUserAreaRibbon li * {
+        font-size: 13px !important;
+    }
+
+#exlidUserAreaRibbon select {
+    background-color: transparent;
+}
+
+
+#exlidUserAreaRibbon li:last-child {
+    border-right-width: 0px;
+}
+
+
+/*search button*/
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+    position: relative;
+    height: auto;
+}
+
+#exlidSearchTile {
+    clear: both;
+    height: auto;
+}
+
+.EXLSearchFieldRibbonFormSearchFor {
+    padding-left: 0.2em;
+}
+
+.EXLSearchFieldRibbonFormFields {
+    width: 97% !important;
+    float: none;
+    height: 30px;
+}
+
+.EXLSearchFieldRibbonFormSubmitSearch {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 0px !important;
+}
+
+#exlidSearchRibbon input {
+    outline: none;
+}
+
+    #exlidSearchRibbon input.submit {
+        height: 30px;
+    }
+
+
+/*Facets*/
+#EXLFacetsMobile {
+    margin-left: 0.2em;
+    margin-top: 5px;
+}
+
+    #EXLFacetsMobile select {
+        width: 100%;
+        height: 30px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border: 1px solid #dadada;
+    }
+
+
+
+/*facebook fixes*/
+.EXLFacebookIframe {
+    height: 30px;
+    margin-top: -3px;
+}
+
+/*remove tabs inner scroll bar*/
+.EXLTabContent {
+    height: auto;
+}
+
+/*sort*/
+.EXLResultsSortBySelected, .EXLResultsSortByMenu {
+    display: none;
+}
+
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+    width: auto;
+}
+
+.EXLSortMobile select {
+    line-height: 26px;
+    height: 26px;
+    background-color: transparent;
+}
+
+.EXLResultsHeader{
+	margin-bottom: 30px;
+}
+
+/*personal settings*/
+.EXLMyAccountMainContainer div.EXLMyAccountRanking {
+	float: left;
+	width: 70%;
+}
+
+img#librarylogo {
+	padding-right: 0px;
+	display: none;
+}
+
+li#exlidchat {
+	display: none;
+}
+
+ul#exlidUserAreaRibbon {
+	width: 90%;
+}
+
+li#EXLMainMenuItem4 {
+	display: none;
+}
+
+#exlidMainMenuRibbon li {
+	font-size:70%;
+}
+
+ul#exlidUserAreaRibbon {
+	max-width:100%;
+	width: 80%;
+	padding-right:10%;
+	padding-left:10%;
+}
