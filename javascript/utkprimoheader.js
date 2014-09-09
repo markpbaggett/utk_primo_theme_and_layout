@@ -116,3 +116,11 @@ $(document).ready(function(){
 	$("#exlidUserAreaRibbon > li#exlidSignOut").remove();
 	$("#exlidUserAreaRibbon > li#exlidSignIn").remove();
 });
+
+/* Move View All Versions to the Right in Full Results View */
+$(document).ready(function(){
+	var IsFullResults = $('.EXLResultTitle').length;
+	if(IsFullResults == 1) {
+		$('.EXLResultFRBR').css({"padding-left":"1em"});
+	}
+});
