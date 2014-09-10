@@ -480,3 +480,11 @@ div#resultsNavNoIdBottom {
 .EXLSearchFieldRibbonFormBrowseSearchFor {
 	border:none;
 }
+
+/* Added for About Altmetrics */
+a#altmetrics {
+	padding-left: 5em;
+	padding-bottom: 2em;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
