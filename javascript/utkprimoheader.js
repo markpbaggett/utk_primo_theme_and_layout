@@ -124,3 +124,52 @@ $(document).ready(function(){
 		$('.EXLResultFRBR').css({"padding-left":"1em"});
 	}
 });
+
+/* Adding (UT) to Local Facets */
+$(document).ready(function(){
+	$("li.EXLFacet > a").each(function(i) {
+	var facetvalue = jQuery(this).html().trim();
+		if (facetvalue == "Hodges Library"){
+			jQuery(this).html("Hodges Library (UT)");	
+		}
+		else if (facetvalue == "Storage"){
+			jQuery(this).html("Storage (UT)");
+		}
+		else if (facetvalue == "Pendergrass AgVet Med Library"){
+			jQuery(this).html("Pendergrass AgVet Med Library (UT)");
+		}
+		else if (facetvalue == "Map Collection"){
+			jQuery(this).html("Map Collection (UT)");
+		}
+		else if (facetvalue == "Hodges Reference"){
+			jQuery(this).html("Hodges Reference (UT)");
+		}
+		else if (facetvalue == "Devine Music Library"){
+			jQuery(this).html("Devine Music Library (UT)");
+		}
+		else if (facetvalue == "E-Collections"){
+			jQuery(this).html("E-Collections (UT)");
+		}
+		else if (facetvalue == "Special Collections"){
+			jQuery(this).html("Special Collections (UT)");
+		}
+		else if (facetvalue == "Hodges Media Center"){
+			jQuery(this).html("Hodges Media Center (UT)");
+		}
+		else if (facetvalue == "Hodges Reserve"){
+			jQuery(this).html("Hodges Reserve (UT)");
+		}
+		else if (facetvalue == "Preston Medical Library"){
+			jQuery(this).html("Preston Medical Library (UT)");
+		}
+		else if (facetvalue == "The Commons"){
+			jQuery(this).html("The Commons (UT)");
+		}
+		else if (facetvalue == "The Studio"){
+			jQuery(this).html("The Studio (UT)");
+		}
+		else if (facetvalue == "Digital Collection (UT Libraries)"){
+			jQuery(this).html("Digital Collections (UT)");
+		}
+	});
+});
