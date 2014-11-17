@@ -33,7 +33,6 @@ $(document).ready(function(){
 /* Moving Tags and Help to other bar */
 $(document).ready(function(){
 $("#exlidMainMenuItem2").appendTo("#exlidUserAreaRibbon");
-$("#exlidMainMenuItem3").appendTo("#exlidUserAreaRibbon");
 });
 
 
@@ -172,4 +171,9 @@ $(document).ready(function(){
 			jQuery(this).html("Digital Collections (UT)");
 		}
 	});
+	
+	/* Rename A to Z Link */
+	$("a.EXLMainMenuITEMATOZ").html("E-journals");
+
 });
+
